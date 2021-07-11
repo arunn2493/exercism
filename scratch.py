@@ -22,9 +22,26 @@
 
 # print(POINTS)
 
-import re
-a = "Complementary metal-oxide semiconductor"
+# import re
+# a = "Complementary metal-oxide semiconductor"
 
-# print("".join(word[0].upper()
-#       for word in re.sub('_|-', '', a).split() if word != ""))
-print(re.sub('_|-', ' ', a).split())
+# # print("".join(word[0].upper()
+# #       for word in re.sub('_|-', '', a).split() if word != ""))
+# print(re.sub('_|-', ' ', a).split())
+
+class trial:
+    def __init__(self):
+        pass
+
+    def add_student(self, name, grade):
+        # if grade not in self.dict.keys():
+        return set([name, ])
+        # self.dict[grade].add(name)
+
+
+tri = trial()
+print(tri.add_student('a', 1))
+print(tri.add_student('a', 1))
+print(tri.add_student('c', 1))
+print(tri.add_student('d', 1))
+print(tri.add_student('e', 1))
