@@ -47,3 +47,5 @@ class Garden:
             'V': 'Violets'
         }
         i = self.m.index(name)*2
+
+        return [t[k] for k in self.g[0][i:i+2]+self.g[1][i:i+2]]
